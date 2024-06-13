@@ -3,19 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-  <header>
+    <header>
+        <div class="bar">
+            <h1>Real Estate</h1>
+            <nav class="menu">
+                    <a href="About.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>  
+    <main>
+        <h2>Contact</h2>
+        <div>
+            <p>Fill the next information</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, ea enim alias similique aperiam laboriosam velit amet. Exercitationem, atque reprehenderit?</p>
+        </div>
 
+        <form class="form-container">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="input-container">
+                    <label>Name:</label>
+                    <input type="text">
+                </div>
+                <div class="input-container">
+                    <label>Email:</label>
+                    <input type="email">
+                </div>
+                <div class="input-container">
+                    <label>Phone:</label>
+                    <input type="tel">
+                </div>
+                <div class="input-container">
+                    <label>Message:</label>
+                    <textarea></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Product Information</legend>
+                <div class="input-container">
+                    <label>Type:</label>
+                    <input type="text">
+                </div>
+                <div class="input-container">
+                    <label>Number:</label>
+                    <input type="number">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="input-container">
+                    <label>Email:</label>
+                    <label>Phone:</label>
+                </div>
+                <div class="input-container">
+                    <label>Date:</label>
+                    <label>Hour</label>
+                    <input type="datetime-local">
+                </div>
+            </fieldset>
+        </form>
+    </main>
 
-  </header>  
-  <main>
-    <h2>Contact</h2>
-  </main>
+    <footer class="footer">
+        <div class="footer-flex-container">  
+            <div>
+                <p>Powered by <span>Zillow</span></p>
+            </div>
 
-  <footer>
-    
-  </footer>
+            <div class="flex-icons">
+                <p>Copyright &copy; 2024</p>
+                <p>Privacy Policy</p>
+            </div>
+
+            <div>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>  
+
+    </footer>
 </body>
 </html>
