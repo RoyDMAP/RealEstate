@@ -21,8 +21,12 @@
 /*houses and pethouses*/
 .houses-item{
     background-color: #dedede;
+    margin-right: 10px;
 }
-.houses-item-text p.descrition{
+.houses-item-text{
+    padding: 10px
+} 
+p.descrition{
     font-size: 14px;
 }
 .houses-item-text p.price{
@@ -33,6 +37,10 @@
 .details-container{
     padding-left: 20px;
     list-style: none;
+}
+.flex-icons{
+    display: flex;
+    justify-content: space-between;
 }
 a{
     text-decoration: none;
@@ -58,6 +66,10 @@ h3{
 }
 p{
     line-height: 1.5;
+}
+img{
+    max-width: 100%;
+}
 }
 /*utilities*/
 .container{
