@@ -32,11 +32,19 @@ img{
 .container{
     width: 80%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;   
 }
 .main-flex-container{
     display: flex;
     flex-direction: row;
+}
+@media(max-width:768px){
+    .main-flex-container{
+        flex-direction: column;
+    }
+    .container{
+        width: 90%;
+    }
 }
 .btn-details{
     display: block;
@@ -52,20 +60,51 @@ img{
     background-size: cover;
     color: white;
     text-align: center;
-    height: 400px;
+    height: 300px;
 
 }
 .bar{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 200px;
     background-color: orange;
+    color: black;
 }
 .menu a{
     color: black;
     margin-right: 20px;
 }
+@media(max-width:768px){
+    .bar{
+        flex-direction: column;
+        height: 180px;
+    }
+    .menu a{
+        display: block;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+/*more about us*/
+@media(max-width:768px) {
+    .more-about-item{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .more-about-item img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .more-about-item h3{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
 /*houses and pethouses*/
 .houses-item{
     background-color: #dedede;
@@ -74,6 +113,11 @@ img{
 .houses-item-text{
     padding: 10px
 } 
+@media(max-width:768px) {
+    .houses-item{
+        margin-bottom: 20px;
+    }
+}
 p.description{
     font-size: 14px;
 }
