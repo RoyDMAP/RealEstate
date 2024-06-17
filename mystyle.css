@@ -61,7 +61,6 @@ img{
     color: white;
     text-align: center;
     height: 300px;
-
 }
 .bar{
     display: flex;
@@ -71,6 +70,9 @@ img{
     height: 200px;
     background-color: orange;
     color: black;
+}
+.bar2{
+    align-items: center;
 }
 .menu a{
     color: black;
@@ -103,6 +105,9 @@ img{
         margin-top: 10px;
         margin-bottom: 10px;
     }
+}
+.about-our-team{
+    align-items: center;
 }
 
 /*houses and pethouses*/
@@ -173,6 +178,16 @@ legend{
     width: 70%;
     padding: 3px;
 }
+.image{
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+.blog{
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+}
 
 .footer{
     display: flex;
@@ -191,4 +206,9 @@ legend{
     padding: 10px;
     border-radius: 50%;
 }
+footer{
+    background-image: url(./img/header.jpg);
+    height: 80px;
+}
+
 
